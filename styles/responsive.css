@@ -1,0 +1,144 @@
+@media (min-width: 1400px) {
+  .container {
+    width: 1250px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .home__pic {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .home__pic {
+    width: 35rem;
+    height: 35rem;
+  }
+  .service {
+    padding: 6rem 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav__logo {
+    width: 8rem;
+  }
+  .menu__item {
+    margin-right: 2rem;
+    font-size: 1.4rem;
+  }
+  .home {
+    padding-top: 10rem;
+    background-image: none;
+  }
+  .home__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home .row {
+    flex-direction: column-reverse;
+  }
+  .home {
+    margin-top: 7rem;
+    height: 85rem;
+  }
+  .service__img {
+    width: 5rem;
+  }
+  .package__head-title {
+    font-size: 2rem;
+  }
+  .package__head-price {
+    font-size: 1.6rem;
+  }
+
+  .package__head-description,
+  .package-list {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .nav__toggle-icon {
+    display: flex;
+  }
+  .home__name {
+    font-size: 1.8rem;
+  }
+  .home__title {
+    font-size: 4.5rem;
+  }
+  .home__text {
+    font-size: 1.3rem;
+  }
+  .home {
+    height: 80rem;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .service {
+    padding: 5rem 7rem;
+  }
+  .service__vector {
+    display: none;
+  }
+  .resume-list {
+    margin-right: 0;
+  }
+  .package__head-title {
+    font-size: 3.5rem;
+  }
+  .package__head-price {
+    font-size: 2.5rem;
+  }
+
+  .package__head-description,
+  .package-list {
+    font-size: 1.8rem;
+  }
+  .package-item--purple {
+    transform: scale(1);
+  }
+  .contact-form-wrapper {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav__logo {
+    width: 7rem;
+  }
+  .home {
+    background-image: none;
+    height: auto;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .footer-socail {
+    padding-top: 1.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home__pic {
+    width: 28rem;
+    height: 28rem;
+    border: 1rem solid var(--app-bg-color);
+  }
+  .home__name {
+    font-size: 1.4rem;
+  }
+  .home__title {
+    font-size: 3.5rem;
+  }
+  .home__text {
+    font-size: 1.1rem;
+  }
+  .service__vector {
+    display: block;
+  }
+}
